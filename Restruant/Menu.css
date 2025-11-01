@@ -1,0 +1,144 @@
+/*.navbar{
+	margin: auto;
+	padding: 25px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: 800;
+	font-family: Pacifico;
+}
+
+.links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links a{
+	margin-left: 10px;
+}
+
+.link{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 8px 26px;
+	transition: 0.3s linear;
+	color: yellow;
+}
+
+.link:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+.links a:last-child{
+	margin-left: 18px;
+}
+
+.contact{
+	color: #fff;
+	background-color: orange;
+	padding-inline: 30px;
+	
+}
+
+.contact:hover{
+	background-color: transparent;
+	color: orange;
+}*/
+
+.Menu{
+	display: flex;
+}
+
+.sidebar{
+	padding: 20px;
+	background-color: grey;
+	font-family: 'Raleway' sans-serif;
+}
+
+.sidebar li button{
+	margin-bottom: 31px;
+}
+
+.cards{
+	font-family: 'Poppins' sans-serif;
+
+}
+
+.imgbox{
+
+	display: flex;
+	background-color: black;
+
+}
+
+.imgbox.cards{
+	margin: 28px;
+	border-radius: 10px;
+
+}
+
+.card:hover{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 35px -5px, rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+	
+}
+
+.imgbox img{
+	border-radius: 20px;
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	display: flex;
+
+}
+
+.cardfooter{
+	text-align: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.cardfooter p{
+	color: white;
+}
+.price span{
+	color: orange;
+	font-size:20px;
+}
+
+button{
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+	border: none;
+	color: Black;
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	background-color: orange;
+	transition: 0.5s;
+}
+
+button:hover{
+	transition: 0.5s;
+	background-color: white;
+}
